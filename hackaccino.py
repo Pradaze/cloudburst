@@ -25,7 +25,7 @@ def preprocess_weather_data(data):
         'temp_max': data['main']['temp_max'],
         'humidity': data['main']['humidity'],
         'pressure': data['main']['pressure'],
-        'wind_gust': data['main']['wind_gust'],
+        'wind_gust': data['wind']['gust'],
         'wind_speed': data['wind']['speed'],
         'clouds': (data['clouds']['all']) / 10
     }

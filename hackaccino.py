@@ -56,8 +56,8 @@ def main():
     st.title('Cloudburst Prediction App')
 
     # Get user input for city name
-    # city_name = st.text_input('Enter City Name')
-    city_name = 'Dehradun'
+    city_name = st.text_input('Enter City Name')
+    # city_name = 'Dehradun'
     # Check if user input is not empty
     if city_name:
         # Fetch weather data

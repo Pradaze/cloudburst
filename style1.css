@@ -1,0 +1,188 @@
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Full Screen Background*/
+.bg {
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url('https://media.istockphoto.com/id/1494319207/photo/clouds-on-the-sky-sunset-weather.jpg?s=170667a&w=0&k=20&c=yKC-eeboC1ECan6UEs4vrAMi_Yb2rShua3S1B8RbIJ8=');
+}
+
+/*Nav bar */
+.background {
+  background-color: #133467;
+}
+
+.background button div {
+  border: 1px solid white;
+  color: white !important;
+  outline: none;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+.container-fluid nav a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.collapse form .btn-outline-success {
+  color: white;
+  border: 1px solid white;
+}
+
+.collapse form .btn-outline-success:hover {
+  background-color: red;
+  border: 1px solid red;
+  transition: 0.4s ease-in-out;
+}
+/*Current City temperature*/
+#city-temperature {
+  background-color: #425c85;
+  padding: 10px 40px 10px 0px;
+}
+/*Today , hourly 5-day menubar*/
+.container-fluid ul a {
+  color: white;
+  font-family: montserrat, 'sans-serrif';
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+/*Modal switch*/
+
+.onoffswitch4 {
+  position: relative;
+  width: 90px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.onoffswitch4-checkbox {
+  display: none;
+}
+
+.onoffswitch4-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #27a1ca;
+  border-radius: 0px;
+}
+
+.onoffswitch4-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch4-inner:before,
+.onoffswitch4-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 26px;
+  font-size: 14px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.onoffswitch4-inner:before {
+  content: '\00b0 F';
+  padding-left: 10px;
+  background-color: #ffffff;
+  color: #27a1ca;
+  text-align: left;
+}
+
+.onoffswitch4-inner:after {
+  content: '    \00b0 C ';
+  padding-right: 10px;
+
+  background-color: #ffffff;
+  color: #27a1ca;
+  text-align: right;
+}
+
+.onoffswitch4-switch {
+  display: block;
+  width: 25px;
+  margin: 0px;
+  background: #27a1ca;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 65px;
+  -moz-transition: all 0.3s ease-in 0s;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch4-checkbox:checked + .onoffswitch4-label .onoffswitch4-inner {
+  margin-left: 0;
+}
+
+.onoffswitch4-checkbox:checked + .onoffswitch4-label .onoffswitch4-switch {
+  right: 0px;
+}
+.nav-item {
+  padding: 8px;
+}
+#about {
+  margin-top: 240px;
+  padding: 40px;
+  text-align: center;
+  background-color: #0c1f3e;
+}
+
+#about p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+#about h2 {
+  margin: 30px 0;
+  color: var(--primary-color);
+}
+
+.social a {
+  margin: 0 5px;
+  color: white;
+}
+
+#chartContainer {
+  height: 370px;
+  width: 900px;
+  position: relative;
+  margin-left: 300px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+#m-booked-bl-simple-58519 {
+  position: relative;
+  padding-top: 50px;
+  margin-left: -50px;
+}

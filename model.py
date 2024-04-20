@@ -7,7 +7,6 @@ import requests
 import joblib
 import time
 
-
 df = pd.read_csv('https://raw.githubusercontent.com/SPUTnik-42/BadalBarsaBijuli/master/Dataset_BBB.csv')
 
 df = df.dropna()
